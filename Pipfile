@@ -7,6 +7,10 @@ verify_ssl = true
 
 [packages]
 django = "*"
+environs = {extras = ["django"],version = "==8.0.0"}
+psycopg2-binary = "==2.8.5"
+whitenoise = "==5.1.0"
+gunicorn = "==19.9.0"
 
 [requires]
 python_version = "3.7"
