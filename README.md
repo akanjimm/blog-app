@@ -5,7 +5,9 @@ New users can register new accounts and explore the features of the app. They ca
 
 A comment section was supposed to be added, but this feature would be added on a future date.
 
-blog-app-olohuntoyin.herokuapp.com (This leads to the website homepage)
+http://blog-app-olohuntoyin.herokuapp.com/ (This leads to the website homepage)
+
+
 
 http://blog-app-olohuntoyin.herokuapp.com/accounts/register/ (Users can register their accounts via this link)
 
