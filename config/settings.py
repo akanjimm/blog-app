@@ -41,8 +41,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
+
+    # local apps
     'blog',
     'accounts',
+
+    # 3rd party apps
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -137,3 +142,6 @@ LOGOUT_REDIRECT_URL = 'home'
 
 # Sends email to users
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# Styling the signup page
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
